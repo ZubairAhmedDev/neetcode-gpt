@@ -5,9 +5,9 @@ from numpy.typing import NDArray
 class Solution:
     
     def sigmoid(self, z: NDArray[np.float64]) -> NDArray[np.float64]:
-        return np.round(1/ (1+np.exp(-z)),5)
+        return np.round(1 / (1+np.exp(-z)),5)
         # z is a 1D NumPy array
-        # Formula: 1 / (1 + e^(-z))
+        # Formula: 1 / (1 + e^(-z),5)
         # return np.round(your_answer, 5)
         pass
 
